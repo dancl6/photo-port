@@ -4,17 +4,17 @@ import '@testing-library/jest-dom/extend-expect';
 import About from '..';
 afterEach(cleanup);
 describe('About component', () => {
-    describe('About component', () => {
+    // describe('About component', () => {
         // First Test
         it('renders', () => {
             render(<About />);
           });
       
         // Second Test
-        it('matches snapshot DOM node structure', () => {
+         it('matches snapshot DOM node structure', () => {
             // render About
             const { asFragment } = render(<About />);
             expect(asFragment()).toMatchSnapshot();
           })
       })
-})
+// })
