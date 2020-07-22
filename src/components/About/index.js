@@ -1,5 +1,6 @@
 import React from 'react';
 import coverImage from "../../assets/cover/cover-image.jpg";
+// import style from '../../index.css';
 
 function About() {
     return (
